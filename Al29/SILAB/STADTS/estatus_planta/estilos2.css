@@ -1,0 +1,647 @@
+/* CSS Document */
+/* ********************************************************************************
+/* **********RECORDAR NO SE PUEDE USAR ARIALN EN ITALIC **************
+/* /***********************************************************************************/
+.TreduccionAncho1{
+	width:7%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	height:9px;
+	vertical-align:middle;
+}
+.TreduccionAncho1FondoAzul{
+	width:7%;
+	border-color:#999999;
+	background-color:#99DDFF;
+	border-style:solid;
+	border-width:1px;
+	font-family:arial;
+	font-size:9px;
+	text-align:center;
+	font-style:italic;
+	border-top:none;
+	border-right:none;
+	height:9px;
+	vertical-align:middle;
+}
+.TreduccionAncho2{
+	width:6.2%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	height:9px;
+	vertical-align:middle;
+}
+.TreduccionAncho2FondoGris{
+	width:5.81%;
+	background-color:#CCCCCC;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+}
+.TreduccionAncho2FondoAmarillo{
+	width:5.81%;
+	background-color:#FFFF99;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+}
+.TreduccionAncho2FondoAzul{
+	width:5.81%;
+	background-color:#99DDFF;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+}
+
+.TreduccionAncho1FondoGris{
+	width:7%;
+	background-color:#CCCCCC;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arial;
+	font-size:9px;
+	text-align:center;
+	font-style:italic;
+	border-top:none;
+	border-right:none;
+}
+.TreduccionAncho1FondoAmarillo{
+	width:7%;
+	background-color:#FFFF99;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arial;
+	font-size:9px;
+	text-align:center;
+	font-style:italic;
+	border-top:none;
+	border-right:none;
+	height:9px;
+	vertical-align:middle;
+}
+.TreduccionAncho2UltimaColumna{
+	width:5.81%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-color:#999999;
+}
+.TreduccionAncho2FondoGrisUltimaColumna{
+	width:5.81%;
+	background-color:#CCCCCC;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+}
+.TreduccionAncho2FondoAmarilloUltimaColumna{
+	width:5.81%;
+	background-color:#FFFF99;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	height:9px;
+	vertical-align:middle;
+}
+.TreduccionAncho2FondoAzulUltimaColumna{
+	width:5.81%;
+	background-color:#99DDFF;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	height:9px;
+	vertical-align:middle;
+}
+
+.bordesLineaPrincipal{
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+}
+.bordesLinea1{
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top:none;
+	border-right:none;
+}
+.bordesLinea1Ancho1{
+	width:7%;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top:none;
+	border-right:none;
+}
+.bordesLinea2Ancho1{
+	width:7%;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-bottom-color:#999999;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top:none;
+	border-right:none;
+}
+.bordesLinea1Ancho2{
+	width:3.44%;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top:none;
+	border-right:none;
+}
+.bordesUltimaColumna{
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+}
+.bordesLinea2Ancho2{
+	width:5.81%;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-bottom-color:#999999;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top:none;
+	border-right:none;
+}
+.TrOtrasAreasAncho1{
+	width:7%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	vertical-align:middle;
+}
+.TrOtrasAreasAncho2{
+	width:10.33%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	vertical-align:middle;
+}
+.TrOtrasAreasAncho2FondoAmarillo{
+	width:10.33%;
+	background-color:#FFFF99;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+}
+.TrOtrasAreasAncho2FondoGris{
+	width:10.33%;
+	background-color:#CCCCCC;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+}
+.TrOtrasAreasAncho2FondoAzul{
+	width:10.33%;
+	background-color:#99DDFF;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+}
+.bordesLinea1Ancho2UltimaColumna{
+	width:6.2%;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top:none;
+}
+.bordesLineaPrincipalOtrasAreas{
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-bottom-color:#999999;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+}
+.bordesLineaPrincipalOtrasAreasUltimaLinea{
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#999999;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+}
+.bordesLineaPrincipalOtrasAreasPrimeraLinea{
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+}
+.bordesLinea3{
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+}
+.bordesLinea4{
+	width:7%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arial;
+	font-size:9px;
+	text-align:center;
+	font-style:italic;
+	border-right:none;
+	border-top:none;
+	height:9px;
+	vertical-align:middle;
+}
+.bordesLinea1Ancho2UltimaColumnaOtrasAreas{
+	width:10.331%;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	vertical-align:middle;
+	border-top-color:#999999;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:#999999;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#999999;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top:none;
+}
+.TrOtrasAreasAncho2UltimaColumna{
+	width:10.33%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-color:#999999;
+}
+.TrOtrasAreasAncho2FondoGrisUltimaColumna{
+	width:10.33%;
+	background-color:#CCCCCC;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	height:9px;
+	vertical-align:middle;
+}
+.TrOtrasAreasAncho2FondoAmarilloUltimaColumna{
+	width:10.33%;
+	background-color:#FFFF99;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	height:9px;
+	vertical-align:middle;
+}
+.TrOtrasAreasAncho2FondoAzulUltimaColumna{
+	width:10.33%;
+	background-color:#99DDFF;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	height:9px;
+	vertical-align:middle;
+}
+.TrOtrasAreasAncho2UltimaColumna{
+	width:10.33%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-color:#999999;
+}
+.TrOtrasAreasNoBordes{
+	width:10.33%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+}
+.TrReduccionTurnoAreasAncho2{
+	width:8.6%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	vertical-align:middle;
+}
+.TrReduccioTrunosAncho2UltimaColumna{
+	width:8.6%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-color:#999999;
+}
+.TrEquipoMovilTurnoAreasAncho2{
+	width:15%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	vertical-align:middle;
+}
+.TrMateriaPrimaTurnoAreasAncho2{
+	width:12.57%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	vertical-align:middle;
+}
+.TrEquipoMovilAncho2UltimaColumna{
+	width:13.6%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-color:#999999;
+}
+.TrMateriaPrimaAncho2UltimaColumna{
+	width:11.625%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-color:#999999;
+}
+.encabezado_formulario_ingreso{
+	height:25px; 
+	vertical-align:middle;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:white;
+	font-weight:bold;
+	background-color:#0066CC;
+	border-color:white;
+	border-style:solid;
+	border-width:1px;
+	text-align:center;
+}
+.cuerpo_formulario_ingreso_1{
+	height:25px; 
+	vertical-align:middle;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:center;
+	background-color:#99CCFF;
+	border-color:white;
+	border-style:solid;
+	border-width:1px;
+}
+.TrOtrasObservAncho1{
+	width:15%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arial;
+	font-size:9px;
+	text-align:center;
+	font-style:italic;
+	border-top:none;
+	border-right:none;
+	vertical-align:middle;
+}
+.TrObservAncho2UltimaColumna{
+	width:85%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	border-top:none;
+	border-color:#999999;
+}
+.TrOtrasAreasAncho1_2{
+	width:15%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	vertical-align:middle;
+}
+.niv_silos_TrReduccionTurnoAreasAncho2{
+	width:7.5%;
+	border-color:#999999;
+	border-style:solid;
+	border-width:1px;
+	font-family:arialn;
+	font-size:9px;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-color:#999999;
+	vertical-align:middle;
+}

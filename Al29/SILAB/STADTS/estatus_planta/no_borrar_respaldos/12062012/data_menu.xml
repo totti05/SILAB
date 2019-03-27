@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<menu  name="" mixedImages="yes">
+	<MenuItem name="Manejo Informacion" id="menu_ver_l1">
+		<MenuItem name="Cargar Data" id="menu_ver_l11" >
+			<MenuItem name="Datos Por Turno" id="menu_ver_l111" href="modules.php?name=estatus_planta&amp;funcion=formulario_cargar_datos_por_turno" />
+			<MenuItem name="Datos Por día" id="menu_ver_l112" href="modules.php?name=estatus_planta&amp;funcion=formulario_cargar_datos_por_dia" />
+		</MenuItem>
+		<MenuItem name="Carga Manual Por Turno" id="menu_ver_l13"> 
+			<MenuItem name="Reducción" id="menu_ver_l131" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_reduccion_turno" />
+			<MenuItem name="Carbón" id="menu_ver_l132" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_carbon_turno" />
+			<MenuItem name="Colada" id="menu_ver_l133" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_colada_turno" />
+			<MenuItem name="Accidentes" id="menu_ver_l135" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_accidentes" />
+		</MenuItem>
+		<MenuItem name="Carga Manual Por Día" id="menu_ver_l14"> 
+			<MenuItem name="Reducción" id="menu_ver_l141" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_reduccion_dia" />
+			<MenuItem name="Carbón" id="menu_ver_l142" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_carbon_dia" />
+			<MenuItem name="Materias_Primas" id="menu_ver_l144" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_materias_primas_dia" />
+		</MenuItem>
+		<MenuItem name="Observaciones del Área" id="menu_ver_l15"> 
+			<MenuItem name="Observ. Reducción" id="menu_ver_l151" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_observaciones_1" />
+			<MenuItem name="Observ. Carbón" id="menu_ver_l152" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_observaciones_2" />
+			<MenuItem name="Observ. Colada" id="menu_ver_l153" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_observaciones_3" />
+			<MenuItem name="Observ. SCP" id="menu_ver_l154" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_observaciones_4" />
+			<MenuItem name="Observ. Mtto" id="menu_ver_l154" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_observaciones_6" />
+		</MenuItem>
+		<MenuItem name="Equipo Móvil" id="menu_ver_l134">
+			<MenuItem name="Reducción" id="menu_ver_l1134">
+				<MenuItem name="Producción" id="menu_ver_l134" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=1&amp;sub_tipo=1"/>
+				<MenuItem name="Mantenimiento" id="menu_ver_l135" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=1&amp;sub_tipo=2"/>
+				<MenuItem name="Servicios" id="menu_ver_l135" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=1&amp;sub_tipo=3"/>
+			</MenuItem>
+			<MenuItem name="Carbón" id="menu_ver_l1134">
+				<MenuItem name="Producción" id="menu_ver_l134" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=2&amp;sub_tipo=1" />
+				<MenuItem name="Mantenimiento" id="menu_ver_l134" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=2&amp;sub_tipo=2" />
+			</MenuItem>
+			<MenuItem name="Colada" id="menu_ver_l134" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=3&amp;sub_tipo=1" />
+			<MenuItem name="Suministros Ind" id="menu_ver_l1134" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=5&amp;sub_tipo=1"/>
+			<MenuItem name="Mantenimiento" id="menu_ver_l1134" href="modules.php?name=estatus_planta&amp;funcion=formulario_ingresa_pantalla_manual_equipo_movil_turno_1&amp;area=6&amp;sub_tipo=1"/>
+		</MenuItem>
+		<MenuItem name="Inicializar Clave Usuario" id="menu_ver_116" href="modules.php?name=estatus_planta&amp;funcion=formulario_select_usuario_clave"/>
+	</MenuItem>
+	<MenuItem name="Generación Reportes" id="menu_ver">	
+		<MenuItem name="Reporte Estatus Planta" id="menu_ver_l2" href="modules.php?name=estatus_planta&amp;funcion=pide_reporte_estatus_planta"/>	
+	</MenuItem>
+</menu>

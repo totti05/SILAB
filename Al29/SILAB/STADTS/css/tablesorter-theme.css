@@ -1,0 +1,23 @@
+/* tables */
+table.tablesorter {
+	margin:10px 0pt 15px;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	padding: 4px;
+}
+thead tr th.cabecera {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+th.headerSortUp {
+	background-image: url(asc.gif) !important;
+}
+th.headerSortDown {
+	background-image: url(desc.gif) !important;
+}
+th.headerSortDown, th.headerSortUp {
+background-color: #1E5499;
+}

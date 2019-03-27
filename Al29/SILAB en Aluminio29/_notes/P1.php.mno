@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:N_FICHA;datatype:real,name:FECHA;datatype:datetime,name:HORA_ENTRADA;datatype:char,name:HORA_SALIDA;datatype:char,name:OBSERVACION_SALIDA;datatype:char,name:NOMBRE;datatype:char,name:APELLIDOS;datatype:char" />
+	<infoitem key="MM_css_include" value="ESTILO1.css" />
+	<infoitem key="MM_css_exclude" value="" />
+</info>

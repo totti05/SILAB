@@ -1,0 +1,345 @@
+@charset "UTF-8";
+
+
+* a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700 !important;
+}
+#cargando {
+	width: 100px;
+	height: 100px;
+	background-image: url("../images/cargando50x50.gif");
+	margin: 0 50%;
+	background-repeat: no-repeat;
+}
+#cuerpo {
+  font-family: Tahoma, Arial, sans-serif, Helvetica;
+  background-color:#FCFCFC;
+  background-image: url("../images/fondo.png");
+  background-attachment: fixed;
+  background-position-x: left;
+  margin: auto;
+  background-repeat: repeat-y;
+}
+
+#header {
+  background-color: #455DA2;
+  width: 100%;
+  height: 75px;
+  /*position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;*/
+}
+
+#titulo {
+    color: #fcfcfc;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    margin: 20px;
+}
+
+
+nav {
+	position: absolute;
+	margin: 20px;
+	left: 150px;
+}
+
+nav a {
+  padding: 5px;
+  background-color: #EAE5EB;
+  color: #262626;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+.filtro {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background: #002C65 none repeat scroll 0% 0%;
+	padding: 10px;
+}
+
+#contenido, #pie {
+  /*position: relative;
+  top: 75px;*/
+}
+
+#redvem {
+    background-color: #eae5eb;
+    color: #072d3c;
+    padding: 5px 0px;
+}
+#redvem h3 {
+	margin: 0px auto !important;
+    margin: 0 42%;
+    width: 160px;
+}
+
+
+
+.servidor {
+    background-color: #BDE9BF;
+    width: 155px;
+    height: 155px;
+    background: #BDE9BF;
+    background-image: url("../images/servidor130x130.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    right: 30px;
+   /* border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;*/
+    border: 7px solid #2DD82D;
+}
+
+
+.servidor.errors {
+	background-image: url("../images/advertencia.png");
+	border-color: red;
+}
+
+.servidor:hover {
+    background-color: #D8D8D8 !important;
+}
+
+.layout {
+margin: 0px auto;
+width: 100%;
+}
+
+ul.layout dd {
+    display: block;
+    float: left;
+}
+
+
+.detalle {
+    width: 160px;
+    position: relative;
+    top: 40px;
+}
+
+.detalle p {
+    background-color: #000000;
+    padding: 5px;
+    color: #FCFCFC;
+    font-size: 12px;
+}
+
+.nombre-instancia {
+    text-transform: uppercase;
+    width: 120px;
+    text-align: -webkit-center;
+    text-align: center;
+    text-align: -moz-center;
+    margin: 0px;
+}
+
+.instancia {
+    background-repeat: repeat-y;
+    background-image: url("../images/conexion.png");
+    background-position: 65%;
+    display: inline-block !important;
+    display: inline;
+    min-height: 175px;
+    padding-top: 25px;
+    width: 330px;
+}
+
+.instancia.errori {
+    background-image: url("../images/error_conexion.png");
+}
+#pie{
+  background: #ececec;
+  padding: 2em;
+  display: block;
+}
+
+.footer , .push {
+ height : 4em ;
+ }
+ 
+.leyenda.color {
+    height: 20px;
+    width: 20px;
+    background-color: #BDE9BF;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+.nombre-servidor {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.leyenda_instancia {
+  display: inline-block !important;
+  display: inline;
+  width: 80px;
+  margin: 5px;
+}
+
+#iniciar-sesion {
+    background: #FFFFFF;
+    width: 70%;
+    margin: auto;
+    padding: 4em;
+    margin: 2em auto;
+    border: 1em solid #e0e0e0;
+}
+
+.submit, .button {
+    background: #20baff;
+    color: #fcfcfc;
+    font-weight: 700;
+    border: none;
+}
+
+.ejecutar {
+    background: #EC7D51 !important;
+}
+
+.descongelar {
+    background: #51AAEC !important;
+}
+
+#iniciar-sesion input[type="submit"] {
+    width: 100%;
+}
+#iniciar-sesion fieldset {
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: auto;
+}
+
+table {
+    width: 95%;
+    background: #fcfcfc;
+    margin: 2em auto  !important;
+    border: 5px solid #455DA2 !important;
+}
+caption {
+    padding: 1em 0 !important;
+}
+
+thead {
+    background: #455DA2;
+    color: #fcfcfc;
+    font-size: smaller;
+}
+
+tbody {
+    text-align: left;
+    font-size: 12px;
+}
+
+ th {
+    padding: 10px  !important;
+    border-bottom: 1px solid #E4E4E4 !important;
+ }
+ 
+ th.estatus-Ejecutando, th.estatus-Culminando {
+	background-color: #B0E9F5;
+	vertical-align: middle;
+	text-align: center;
+ }
+ th.resultado-Exitoso {
+	background-color: #B0F5B0;
+	vertical-align: middle;
+	text-align: center;
+ }
+ th.resultado-Fallido, th.estatus-Suspendido {
+	background-color: #F5B0B0;
+	vertical-align: middle;
+	text-align: center;
+ }
+ th.resultado-Cancelado, th.estatus-Inactivo, th.estatus-Esperando, th.estatus-Reintentando {
+	background-color: #E9E9E9;
+	vertical-align: middle;
+	text-align: center;
+ }
+ 
+th.estatus-Congelado {
+	background-color: #51AAEC;
+	color: #FFF;
+	vertical-align: middle;
+	text-align: center;
+ }
+ 
+ th.resultado-Desconocido {
+	background-color: #F5F4B0;
+	vertical-align: middle;
+	text-align: center;
+ }
+ .boton{
+	padding: 5px;
+	border-radius: 2px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	text-align: center;
+	text-align: -moz-center;
+	border: none;
+	width: 100px;
+	background-color: #FF0063;
+ }
+
+/*--Renderizado--*/
+html , body , div , span , applet , object , iframe , 
+  h1 , h2 , h3 , h4 , h5 , h6 , p , 
+  blockquote , pre , a , abbr , acronym , address , big , 
+  cite , code , del , dfn , em , font , img , 
+  ins , kbd , q , s , samp , small , strike , 
+  sub , sup , tt , var , dl , dt , dd , ol , ul , li , 
+  fieldset , form , label , legend , 
+  table , caption , tbody , tfoot , thead , tr , th , td , 
+  center , u , b , i { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  outline: 0; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-family: inherit; 
+  vertical-align: baseline;
+  } 
+  body { 
+  line-height: 1; 
+  } 
+ :focus { 
+  outline: 0;
+  } 
+  ol , ul { 
+  list-style: none;
+  } 
+  table { 
+  border-collapse: collapse; 
+  border-spacing: 0 
+  } 
+  blockquote:before , blockquote:after , q:before , q:after { 
+  content: "";
+  } 
+  blockquote , q { 
+  quotes: "" "";
+  } 
+  input , textarea { 
+  margin: 0;
+  padding: 0;
+  } 
+
+  hr { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  color: #000; 
+  background-color: #000; 
+  height: 1px;
+  } 

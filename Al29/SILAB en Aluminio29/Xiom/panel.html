@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ <title>SCP - Superintendencia Control de Procesos</title>
+ <style type="text/css">
+  body {
+   font:Arial, Helvetica, sans-serif;
+   background-image:url(imagenes/fondo.jpg);
+   background-repeat:repeat;
+   /*margin:0px 0px 0px 0px;*/
+  }
+  #main, table.noborder {
+   border:0px;
+   border-collapse:collapse;
+   margin:0px 0px 0px 0px;
+   padding:0px 0px 0px 0px;
+   width:100%;
+  }
+  #main {
+   width:80%;
+   margin-left:auto;
+   margin-right:auto;
+  }
+  td.menu {
+   background-image:url(imagenes/menu.jpg);
+   background-repeat:no-repeat;
+   font-weight:bolder;
+   color:#FFFFFF;
+   text-align:center;
+   cursor:pointer;
+  }
+  #principal {
+   background-image:url(imagenes/fondo2.jpg);
+   background-repeat:repeat;
+  }
+  #menu_izq {
+   border:1px solid #000000;
+   background-color:#FFFFFF;
+   font-size:smaller;
+  }
+  #menu_izq li {
+   cursor:pointer;
+   text-decoration:underline;
+   list-style-type:square;
+  }
+  #contenido {
+   margin:5px 5px 5px 5px;
+   background-color:#FFFFFF;
+   border:1px solid #00CCFF;
+  }
+  #form {
+   border-collapse:collapse;
+  }
+  #form td {
+   text-align:right;
+   font-weight:bold;
+  }
+ </style>
+ <script language="javascript1.2" src="Scripts/codethatcalendarstd.js"></script>
+ <script language="javascript1.2" src="box_ex.js"></script>
+</head>
+
+<body>
+
+	<table id="main">
+	 <tr>
+	  <td align="center"><img src="imagenes/cabezera.jpg" /></td>
+	 </tr>
+	 <tr> 
+	  <td>
+	   <table class="noborder">
+	    <tr>
+		 <td class="menu">P&aacute;gina de Inicio</td>
+		 <td class="menu">Descargas</td>
+		 <td class="menu">Publicar Noticias</td>
+		 <td class="menu">T&oacute;picos</td>
+		 <td class="menu">Tu Cuenta</td>
+		 <td class="menu">Misi&oacute;n y Visi&oacute;n</td>
+		</tr>
+	   </table>
+	  </td>
+	 </tr>
+	 <tr> 
+	  <td>
+	   <table id="principal" class="noborder">
+	    <tr>
+		 <td style="width:137px; margin:5px 5px 5px 5px; vertical-align:top">
+		  <img src="imagenes/principal.jpg" />
+		  <div id="menu_izq">
+		   <ul>
+		    <li>Inicio</li>
+			<li>Accidentes</li>
+			<li>Archivo de Noticias</li>
+			<li>Compromisos SCP</li>
+			<li>Descargas</li>
+			<li>Directorio</li>
+			<li>Enlaces Web</li>
+			<li>Enviar Noticias</li>
+			<li>Galer&iacute;a de Im&aacute;genes</li>
+			<li>Misi&oacute;n y Visi&oacute;n</li>
+			<li>Seguridad</li>
+			<li>SILE</li>
+			<li>Topicos</li>
+			<li>Tu Cuenta</li>
+		   </ul>
+		  </div>
+		 </td>
+		 <td style="vertical-align:top">
+		  <div id="contenido">
+		   <center>
+		    <table><tr><td><img src="imagenes/tipito.jpg" /></td><td>
+		    <img src="imagenes/laboratorio.jpg" />
+<!-- CONTENIDO -->
+			<br />
+			<form id="panel" name="panel">
+			 <table id="form">
+			  <tr>
+			   <td><br /><label>Fecha:</label></td>
+			   <td><br /><script language="javascript1.2">
+<!--
+var c1 = new CodeThatCalendar(caldef2);
+//-->
+</script>
+<input name="id1" type="textarea" /> &nbsp;
+<input type="button" onclick="c1.popup('id1');" value="..." />
+<!--<input type="text" id="fecha" name="fecha" />--></td>
+			  </tr>
+			  <tr>
+			   <td><br /><label for="complejo">Complejo:</label></td>
+			   <td style="text-align:left">
+			    <br />
+				<select id="complejo" name="complejo">
+				 <option value="celdas" selected="selected">Celdas</option>
+				 <option value="crisoles">Crisoles</option>
+				 <option value="colada">Colada</option>
+				 <option value="envarillado">Envarillado</option>
+				</select>
+			   </td>
+			  </tr>
+			  <tr>
+			   <td colspan="2" style="text-align:center">
+			    <br />
+			    <input type="button" value="Entrar" onclick="window.location=document.getElementById('complejo').value+'.html'" />&nbsp;
+				<input type="button" value="Salir" onclick="window.location='index.html'" />
+			   </td>
+			  </tr>
+			 </table></td></tr></table>
+			 </form>
+<!-- >---------< -->
+		   </center>
+		  </div>
+		 </td>
+		</tr>
+	   </table>
+	  </td>
+	 </tr>
+	</table>
+
+</body>
+</html>
